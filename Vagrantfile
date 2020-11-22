@@ -7,27 +7,27 @@ MACHINES = {
         :ip_addr => '192.168.11.101',
 	:disks => {
 		:sata1 => {
-			:dfile => './sata1.vdi',
+			:dfile => 'hdd/sata1.vdi',
 			:size => 250,
 			:port => 1
 		},
 		:sata2 => {
-                        :dfile => './sata2.vdi',
+                        :dfile => 'hdd/sata2.vdi',
                         :size => 250, # Megabytes
 			:port => 2
 		},
                 :sata3 => {
-                        :dfile => './sata3.vdi',
+                        :dfile => 'hdd/sata3.vdi',
                         :size => 250,
                         :port => 3
                 },
                 :sata4 => {
-                        :dfile => './sata4.vdi',
+                        :dfile => 'hdd/sata4.vdi',
                         :size => 250, # Megabytes
                         :port => 4
                 },
 		:sata5 => {
-                        :dfile => './sata5.vdi',
+                        :dfile => 'hdd/sata5.vdi',
                         :size => 250, # Megabytes
                         :port => 5
                 }
